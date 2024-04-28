@@ -2,7 +2,7 @@ ChatApp
 
 ChatApp is a simple web-based chat application built using Django, HTML, CSS, and Python. It allows users to create accounts, join chat rooms, and communicate with other users in real-time.
 
-Features
+I. Features
 
 User Authentication: Users can sign up for an account and log in securely.
 
@@ -13,34 +13,37 @@ Multiple Rooms: ChatApp supports multiple chat rooms, allowing users to create n
 Responsive Design: The application is designed to be responsive and work seamlessly across different devices and screen sizes.
 
 
-Installation
+II. Installation
 To run ChatApp locally, follow these steps:
 
 1. Clone the repository:
 bash
 
-2. Copy code
+2. Copy code:
+
 git clone https://github.com/yourusername/chatapp.git
 
 
-3. Navigate to the project directory:
+III. Navigate to the project directory:
+
 bash
-4. Copy code
+
+Copy code:
 cd chatapp
 
-Install the dependencies:
+IV. Install the dependencies:
 
 1.Copy code
 pip install -r requirements.txt
 
-2. Apply database migrations:
+V.  Apply database migrations:
 
-3. Copy code
+1. Copy code:
 python manage.py migrate
 
-4. Start the development server:
+2. Start the development server:
 
-5. Copy code
+4. Copy code:
 python manage.py runserver
 
 
