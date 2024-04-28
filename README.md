@@ -17,34 +17,34 @@ II. Installation
 To run ChatApp locally, follow these steps:
 
 1. Clone the repository:
-bash
+# bash
 
 2. Copy code:
 
-git clone https://github.com/yourusername/chatapp.git
+ # git clone https://github.com/yourusername/chatapp.git
 
 
 III. Navigate to the project directory:
 
-bash
+# bash
 
 Copy code:
-cd chatapp
+# cd chatapp
 
 IV. Install the dependencies:
 
 1.Copy code
-pip install -r requirements.txt
+ # pip install -r requirements.txt
 
 V.  Apply database migrations:
 
 1. Copy code:
-python manage.py migrate
+# python manage.py migrate
 
-2. Start the development server:
+V. Start the development server:
 
 4. Copy code:
-python manage.py runserver
+# python manage.py runserver
 
 
 Open your web browser and visit http://localhost:8000 to access the application.
